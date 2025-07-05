@@ -37,13 +37,21 @@ This project automates the process of discovering new companies, scraping their 
 ## 🗂️ Project Structure
 
 apply-bot/
+
 │
+
 ├── main.py # Triggers email sending
+
 ├── pipeline.py # Finds new companies and enriches contact data
+
 ├── email_sender.py # Sends emails based on CSV data
+
 ├── web_scraper.py # Scrapes websites and contact info
+
 ├── utils.py # CSV read/write helpers
+
 ├── suivi.csv # Your application history (auto-managed)
+
 └── README.md # This file
 
 ---
