@@ -10,7 +10,7 @@ EMAIL = "your_email@gmail.com"           # ← Replace with your email
 APP_PASSWORD = "your_app_password"       # ← Replace with your Gmail App password
 CV_PATH = "YOUR_CV.pdf"                  # ← Replace with your actual CV filename
 CSV_FILE = "suivi.csv"
-EMAIL_SUBJECT = ""
+EMAIL_SUBJECT = ""  # subject
 
 EMAIL_RE = re.compile(r"^[\w.+-]+@[\w-]+\.[\w.-]+$")
 
