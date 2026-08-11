@@ -16,8 +16,6 @@ CSV_FILE = Path('suivi.csv')
 
 KEYWORDS = [
     # Major zones
-    "agence web marseille", "startup marseille",
-    "agence web aix en provence", "startup aix en provence",
     # add more according to your mobility !
 ]
 
