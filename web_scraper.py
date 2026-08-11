@@ -84,7 +84,7 @@ def extract_email_phone_city_from_site(company_name: str) -> tuple[str | None, s
             urls_to_scrape.append(urljoin(base_url, path))
 
     known_cities = [
-        "marseille","aix-en-provence"
+        # put ur cities there
     ]
 
     for page_url in urls_to_scrape:
