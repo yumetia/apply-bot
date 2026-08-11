@@ -10,7 +10,7 @@ EMAIL = "your_email@gmail.com"           # ← Replace with your email
 APP_PASSWORD = "your_app_password"       # ← Replace with your Gmail App password
 CV_PATH = "YOUR_CV.pdf"                  # ← Replace with your actual CV filename
 CSV_FILE = "suivi.csv"
-EMAIL_SUBJECT = "Spontaneous Application – Fullstack Web Developer (Apprenticeship)"
+EMAIL_SUBJECT = ""
 
 EMAIL_RE = re.compile(r"^[\w.+-]+@[\w-]+\.[\w.-]+$")
 
@@ -18,9 +18,9 @@ EMAIL_RE = re.compile(r"^[\w.+-]+@[\w-]+\.[\w.-]+$")
 EMAIL_BODY = """
 Hello,
 
-I'm currently a student looking for a web development apprenticeship starting in September 2025. I'm passionate about web technologies and eager to apply my skills in a professional environment.
+I'm currently a [] looking for a [] starting in []. I'm passionate about web technologies and eager to apply my skills in a professional environment.
 
-Through my education and self-driven projects, I have gained solid experience in frontend (React, TailwindCSS) and backend (Node.js, Python, Laravel, Symfony) development, as well as agile teamwork.
+Through my [], I have gained solid experience [], as well as [].
 
 Attached is my resume. Thank you for your time and consideration.
 
@@ -28,7 +28,6 @@ Best regards,
 YOUR NAME
 📞 YOUR PHONE
 📧 your_email@gmail.com
-🌐 your-portfolio.com
 """
 
 # --- Email sender function ---
